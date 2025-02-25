@@ -12,4 +12,4 @@
 ├── 🎨 styles.css  # CSS animations & styles
 ├── 🖥️ script.js   # JavaScript logic for toggling
 
-## hosted Link : 
+## hosted Link : https://annanehathomas.github.io/mode-changer/
