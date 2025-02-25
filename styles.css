@@ -1,0 +1,47 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#toggle{
+  height: 60px;
+  width: 110px;
+  background-color: rgb(43, 41, 41);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 50px ;
+  padding: 0px 7px;
+  cursor: pointer;
+
+}
+#circle{
+  background-color: rgb(248, 248, 248);
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: absolute;
+  transition: transform 0.7s cubic-bezier(0.25, 1.5, 0.5, 1), background-color 0.7s ease;
+}
+
+#text{
+  font-size: 5rem;
+  margin: 100px;
+  text-align: center;
+  transition: color 0.7s ease;
+}
+.color-white{
+  color: white;
+}
+
+.bck-color-black{
+    background-color: black;
+}
+.sliding{
+  transform: translateX(calc(100% + 10px));
+}
