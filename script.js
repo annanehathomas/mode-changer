@@ -9,16 +9,20 @@ var circle = document.getElementById("circle");
 document.getElementById("toggle").onclick = function(){
 
   if(!toggled){
+    text.textContent = "Good Night!"
     text.classList.add("color-white");
-    bodyTag.classList.add("bck-color-black");
+    bodyTag.classList.add("bg-night");
+    bodyTag.classList.remove("bg-day");
     circle.classList.add("sliding");
 
     toggled = true;
   }
 
   else{
+    text.textContent ="Good Morning!"
     text.classList.remove("color-white");
-    bodyTag.classList.remove("bck-color-black");
+    bodyTag.classList.add("bg-day");
+    bodyTag.classList.remove("bg-night");
     circle.classList.remove("sliding");
 
     toggled = false;
